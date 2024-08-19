@@ -1,0 +1,10 @@
+DataBase bağlantı dizesi localdb kullanmaktadır.
+
+İlk etapta proje klasörüne gitmeyi unutmayın , örn;
+"cd C:\Users\username\source\repos\EmployeeManagementSystem\EmployeeManagementSystem"
+Ardından Nuget Paketleri Yükleyin;
+"dotnet restore"
+Migration var olduğu için;
+dotnet ef database update
+
+
